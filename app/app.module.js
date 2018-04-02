@@ -9,15 +9,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
-var second_component_1 = require("./second.component");
+var language_list_component_1 = require("./language-module-list/language-list.component");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
-            declarations: [app_component_1.AppComponent, second_component_1.SecondComponent],
-            bootstrap: [app_component_1.AppComponent, second_component_1.SecondComponent]
+            declarations: [app_component_1.AppComponent, language_list_component_1.LanguageListComponent],
+            bootstrap: [app_component_1.AppComponent]
         })
     ], AppModule);
     return AppModule;
